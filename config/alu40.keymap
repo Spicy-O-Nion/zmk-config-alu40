@@ -65,14 +65,14 @@
 
         Functions {
             bindings = <
-&kp ESC    &kp Q     &kp W     &kp E   &kp R  &kp T      &kp Y      &kp U   &kp I           &kp O         &kp P           &kp BSPC
-&kp TAB    &kp A     &kp S     &kp D   &kp F  &kp G      &kp H      &kp J   &kp K           &kp L         &kp SEMI        &kp APOS
-&kp LSHFT  &kp Z     &kp X     &kp C   &kp V  &kp B      &kp N      &kp M   &kp COMMA       &kp DOT       &kp FSLH        &kp ENTER
-&kp LCTRL  &kp LALT  &kp LGUI  &tog 4  &mo 5  &kp SPACE  &kp SPACE  &tog 6  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESC    &kp Q     &kp W     &kp E   &kp R  &kp T      &kp Y      &kp U  &kp I           &kp O         &kp P           &kp BSPC
+&kp TAB    &kp A     &kp S     &kp D   &kp F  &kp G      &kp H      &kp J  &kp K           &kp L         &kp SEMI        &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C   &kp V  &kp B      &kp N      &kp M  &kp COMMA       &kp DOT       &kp FSLH        &kp ENTER
+&kp LCTRL  &kp LALT  &kp LGUI  &tog 4  &mo 5  &kp SPACE  &kp SPACE  &mo 6  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
-        Pad {
+        Functions1 {
             bindings = <
 &kp ESC  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BSPC
 &kp TAB  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
@@ -81,7 +81,7 @@
             >;
         };
 
-        layer_6 {
+        Functions2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
